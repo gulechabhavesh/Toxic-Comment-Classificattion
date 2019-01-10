@@ -1,0 +1,17 @@
+1.We have used 5 different models along with weighted average to generate final submission file.
+
+2.The models used are :
+  	Logistic regression(logistic_model.pckl)
+  	Ridge(ridge_model.pckl)
+  	Stochastic Gradient Descent(SGD_model.pckl)
+  	Random Forest(randomforest_model.pckl)
+  	XGBoost(xgb_model.pckl)
+
+3.To run the models on test data,run the 'start.py' script for all models and generate 5 different csv files.
+  The required files can be found in python_script folder.
+  
+4.Then using 'blend.py' take weighted average.This will generate final csv file which can be evaluated for accuracy.
+
+5.Pickle files-  
+
+	https://drive.google.com/drive/folders/1EGUTJzZpM8OTyCI_9lgXPtwlKNFNl3sy?usp=sharing
