@@ -1,0 +1,4 @@
+Toxic Comment Classification Aug - Dec 2018
+Course: Machine Learning Guide: Prof. G Srinivasaraghavan
+• Built a multi-headed model that’s capable of detecting negative online comments based
+on toxicity like threats, obscenity, insults, etc. We achieved an AUC-ROC of 0.9878
